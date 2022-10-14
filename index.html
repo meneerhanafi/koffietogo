@@ -129,8 +129,10 @@
 
 
 
+<script src="https://cdn.jsdelivr.net/npm/seamless-scroll-polyfill@latest/lib/bundle.min.js"></script>
 
 <script>
+seamless.polyfill();
 const btn = document.querySelector('.order-button');
 btn.addEventListener('click', function(){
     window.scrollTo(0, 4000);
